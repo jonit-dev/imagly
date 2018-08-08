@@ -1,0 +1,58 @@
+
+.logo-wrapper {
+
+}
+
+.logo-wrapper .imgly-icon {
+    display: block;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.log-wrapper .logo-text {
+    font-size: 1.5rem;
+}
+
+#imgly-form {
+    max-width: 500px;
+    margin: 0 auto;
+    display: block;
+}
+
+.news-column {
+    padding: 2rem;
+}
+
+/* Full width image =========================================== */
+body {
+    position: relative;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.full-image-wrapper {
+    z-index:1;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, .5);
+    display: flex;
+}
+
+.full-image {
+    flex: 1 1 auto;
+    justify-self: center;
+    align-self: center;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.full-image-close {
+    font-size: 2.5rem;
+    position: absolute;
+    top: 2rem;
+    right: 3rem;
+    color: white;
+}
