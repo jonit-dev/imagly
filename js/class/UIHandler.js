@@ -92,7 +92,7 @@ class UIHandler {
 
 
         if(unfilled_list.length > 0) {
-            alert(`Please, fill the fields ${unfilled_list.join(', ')} before continuing`)
+            alert(`Please, fill the fields ${unfilled_list.join(', ')} before continuing`);
             return false;
         }
 

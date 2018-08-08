@@ -35,7 +35,7 @@ $(function () {
 
         /* Validate form data =========================================== */
 
-        UIHandler.validateImageForm(newImageData);
+        return UIHandler.validateImageForm(newImageData);
 
 
         /* UX =========================================== */
